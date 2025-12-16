@@ -8,7 +8,7 @@ services:
     envVars:
       - key: DATABASE_URL
         fromDatabase:
-          name: postgres-saas
+          name: postgres-sass
           property: connectionString
       - key: SECRET_KEY
         generateValue: true
