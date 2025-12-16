@@ -1,7 +1,7 @@
 databases:
   - name: saas
     plan: free
-    databaseName: mysite
+    databaseName: saas
     user: mysite
 
 services:
